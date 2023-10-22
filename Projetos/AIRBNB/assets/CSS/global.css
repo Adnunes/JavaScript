@@ -1,0 +1,44 @@
+
+.header{
+    display: block;
+    align-items: center;
+    box-shadow: 0 0.1em 0 0 lavender;
+    
+}
+.search-button{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.search-button button{
+  background-color: white;
+  border-radius: 2rem;
+}
+
+
+
+
+.filter{
+  list-style: none;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+nav button{
+    width: 100;
+    height: 100;
+    background-color: white;
+    cursor: pointer;
+    
+
+}
+nav  button:hover{
+   border-color:black; 
+   
+}
+
+
