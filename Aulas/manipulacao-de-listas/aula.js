@@ -31,3 +31,4 @@ const lista = [{nome: "Renan"}, {nome: 'Andre'},{nome: 'Mari'}];
 console.log(lista.map((e)=> e.nome).join('; '));
 
 console.log(lista.filter((e)=>e.nome.startsWith('A')));
+
